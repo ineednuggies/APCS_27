@@ -1,14 +1,18 @@
 /*
- *	Author:  
- *  Date: 
+ *	Author:  Alex p
+ *  Date: 9/2/26
 */
-
+// Done , !apr req!
 import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter Your Degrees in Fahrenheit : ");
+		float Fahrenheit = scanner.nextFloat();
+		float Celsius = (Fahrenheit- 32) * 5 / 9;
+		System.out.print("The Celsius Value for " + Fahrenheit + "° Fahrenheit is " + Celsius + "°.");
+
 	}
 }
