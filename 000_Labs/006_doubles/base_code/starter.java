@@ -8,10 +8,9 @@ import java.util.Scanner;
 class starter {
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
-
 		System.out.print("Enter Your Degrees in Fahrenheit : ");
-		float Fahrenheit = scanner.nextFloat();
-		float Celsius = (Fahrenheit- 32) * 5 / 9;
+		double Fahrenheit = scanner.nextFloat();
+		double Celsius = (Fahrenheit- 32) * 5 / 9;
 		System.out.print("The Celsius Value for " + Fahrenheit + "° Fahrenheit is " + Celsius + "°.");
 
 	}
