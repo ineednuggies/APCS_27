@@ -20,7 +20,7 @@ class starter {
 		System.out.print("What year were you born : ");
 		String koti = scanner.nextLine();
 		System.out.print("How much is a buck fifty (0.0) : ");
-		String manishi = scanner.nextLine();
+		//String manishi = scanner.nextLine();
 		System.out.println();
 		System.out.println("Your name is " + naem + " & you were born on " + the + "/" + game + "/" + koti + ".");
 		System.out.println("You are " + is + " years old!");
