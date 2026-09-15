@@ -25,8 +25,7 @@ class starter {
 		System.out.println("Your name is " + naem + " & you were born on " + the + "/" + game + "/" + koti + ".");
 		System.out.println("You are " + is + " years old!");
 
-		float mon = Float.parseFloat(manishi);
-		System.out.println("You have $" + mon + " in your wallet.");
+		float mon = Float.parseFloat(manishi)
 		
 
 	}
