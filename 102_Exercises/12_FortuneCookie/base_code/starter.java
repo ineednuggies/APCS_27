@@ -26,23 +26,23 @@ class starter {
 
 		if(rand == 1){
 			System.out.println("you suck.");
-		}	else if(rand == 2){
+		} if(rand == 2){
 			System.out.println("you should be a box.");
-		}	else if(rand == 3){
+		} if(rand == 3){
 			System.out.println("you stink like overcooked sewer drains.");
-		}	else if(rand == 4){
+		} if(rand == 4){
 			System.out.println("you look like ajith.");
-		}	else if(rand == 5){
+		} if(rand == 5){
 			System.out.println("you might live to 60.");
-		}	else if(rand == 6){
+		} if(rand == 6){
 			System.out.println("you look like eto-jan.");
-		}	else if(rand == 7){
+		} if(rand == 7){
 			System.out.println("you look like jimothy.");
-		}	else if(rand == 8){
+		}if(rand == 8){
 			System.out.println("were doing an exercise today.");
-		}	else if(rand == 9){
+		} if(rand == 9){
 			System.out.println("60%.");
-		}	else if(rand == 10){
+		} if(rand == 10){
 			System.out.println("220 BF.");
 		}
 
