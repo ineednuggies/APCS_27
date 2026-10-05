@@ -2,7 +2,6 @@
  *	Author:  
  *  Date: 
 */
-import pkg.*;
 import java.util.Scanner;
 
 class starter {
@@ -18,16 +17,16 @@ class starter {
 	}
 
 	public static void helloName(String name){
-		// Your Code Goes here!
+		System.out.println("Hello " + name + "!");
 	}
 	
 	public static void makeAbba(String a, String b){
-		// Your Code Goes here!
-		
+		System.out.print(a + b + b + a );
 	}
 	
 	public static void pythag(int a, int b){
-		// Your Code Goes here!
+		double c = (Math.pow(a, 2)) + (Math.pow(b, 2));
+		System.out.println(c);
 	}
 	
 	
