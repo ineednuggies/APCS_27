@@ -13,7 +13,17 @@ class starter {
 	static ArrayList<String> arr = new ArrayList<String>();
 
 	public static void main(String args[]) throws InterruptedException {
-		// Write your code here!
+		Scanner sc = new Scanner(System.in)
+		System.out.println("You will be given a sentence and attempt to type it correctly as fast as possible!");
+		populateArrayList();
+		getSentence();
+		countdown();
+		getTime();
+		startTimer();
+		String typed = sc.nextLine();
+		endTimer();
+		compareSentences(given, typed);
+
 
 		
 	}
