@@ -14,7 +14,45 @@ class starter {
 
 	public static void main(String args[]) throws InterruptedException {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("You will be given a sentence and attempt to type it correctly as fast as possible!");
+		System.out.println("Welcome to Type Quest!");
+		System.out.println("It is currently " + getTime() + " and we're ready to play!");
+		System.out.println("Given a sentence, type it as fast as possible!");
+		System.out.println();
+		System.out.println("------------------------------------------");
+		System.out.println("Would you like to: ");
+		System.out.println(" 1 - Play random");
+		System.out.println(" 2 - Play set");
+		System.out.println(" 3 - Quit");
+		System.out.println();
+		int gamemode = sc.nextInt();
+
+		while (true){
+			if(gamemode == 1){
+				System.out.println("You've chosen to randomly select a sentence.");
+				System.out.println("-----------------Your sentence is:-----------------");
+				populateArrayList();
+				String sentence = getSentence();
+				System.out.println(sentence);
+				System.out.println("---------------------------------------------------");
+				countdown();
+				startTimer();
+				String typed = sc.nextLine();
+				double Time = endTimer();
+				double errors = compareSentences(sentence, typed);
+				System.out.println("Nice job! Here is your result!");
+				System.out.println("Time : " + Time);
+				System.out.println("Errors : " + errors + " letters");
+				//System.out.println(" letters per minute");
+			} else if (gamemode == 2){
+
+			} else if(gamemode == 3){
+				break;
+			} else{
+				System.out.println("You did not select correctly, please try again.");
+			}
+		}
+
+
 	
 
 
