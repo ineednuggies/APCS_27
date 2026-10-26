@@ -7,8 +7,16 @@ import java.util.Scanner;
 
 class starter {
 	public static void main(String args[]) {
-		// the string "I love to learn coding remotely." will appear in
-		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter 1st number : ");
+		int one = sc.nextInt();
+		System.out.println("enter 2nd number : ");
+		int two = sc.nextInt();
+
+		if(one!=two){
+			System.out.println("values are diff");
+		} else { 
+			System.out.println("values are same");
+		}
 	}
 }
