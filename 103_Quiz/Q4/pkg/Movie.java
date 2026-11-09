@@ -1,8 +1,8 @@
 package pkg;
 
 public class Movie {
-     private String movie;
-     private double rating;
+        private String movie;
+        private double rating;
         private int ratingsnum;
         private int revenue;
     public Movie(){
@@ -15,7 +15,7 @@ public class Movie {
         movie = Movie;
         rating = Rating;
         ratingsnum = ratingnums;
-        revenue = Revenue;
+        revenue = Revenue; // could also do This.revenue = revenue and set Revenue as revenue, This.___ chooses global.
     }
 
     public void movieToString(){
